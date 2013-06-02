@@ -89,7 +89,7 @@ Next, we need to tell the album controller to return a ``Pagination`` object ins
 Both these objects can by iterated over to return hydrated ``Album`` objects, so we won't need to make many
 changes to the view script:
 
-``module/Album/src/Album/Model/AlbumTable.php``
+``module/Album/src/Album/Controller/AlbumController.php``
 
 .. code-block:: php
 
